@@ -25,7 +25,11 @@
                 {
                     Console.WriteLine("The result is 10 or less.");
                 }
+
+                Console.Write("\nWould you like to run the program again? (y/n): ");
+                repeat = Console.ReadLine();
             }
+            Console.WriteLine("\nProgram Ended");
 
         }
 
