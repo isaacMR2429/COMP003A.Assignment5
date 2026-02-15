@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            introductionMessage();
+        }
+
+        static void introductionMessage()
+        {
+            Console.WriteLine("Welcome to the Program Organizer!");
+
         }
     }
 }
