@@ -5,6 +5,12 @@
         static void Main(string[] args)
         {
             introductionMessage();
+
+                Console.Write("\nEnter your name: ");
+                string name = Console.ReadLine();
+                Console.Write("Enter a number: ");
+                int number = int.Parse(Console.ReadLine());
+
         }
 
         static void introductionMessage()
