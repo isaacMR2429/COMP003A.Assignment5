@@ -13,6 +13,9 @@
                 string name = Console.ReadLine();
                 Console.Write("Enter a number: ");
                 int number = int.Parse(Console.ReadLine());
+
+                int result = calculationLogic(number);
+                Console.WriteLine($"\nCalculated Result: {result}");
             }
 
         }
@@ -21,6 +24,11 @@
         {
             Console.WriteLine("Welcome to the Program Organizer!");
 
+        }
+        static int calculationLogic(int value)
+        {
+            int doubled = value * 2;
+            return doubled;
         }
     }
 }
