@@ -6,10 +6,14 @@
         {
             introductionMessage();
 
+            string repeat = "y";
+            while (repeat == "y")
+            {
                 Console.Write("\nEnter your name: ");
                 string name = Console.ReadLine();
                 Console.Write("Enter a number: ");
                 int number = int.Parse(Console.ReadLine());
+            }
 
         }
 
