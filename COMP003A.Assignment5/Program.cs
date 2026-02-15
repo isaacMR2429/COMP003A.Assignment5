@@ -16,6 +16,15 @@
 
                 int result = calculationLogic(number);
                 Console.WriteLine($"\nCalculated Result: {result}");
+
+                if (result > 10)
+                {
+                    Console.WriteLine("The result is greater than 10.");
+                }
+                else
+                {
+                    Console.WriteLine("The result is 10 or less.");
+                }
             }
 
         }
